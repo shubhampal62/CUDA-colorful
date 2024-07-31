@@ -1,0 +1,22 @@
+# Installation Instructions
+
+## Prerequisites
+
+- Python 3.8 or later
+- CUDA toolkit
+- TensorFlow with GPU support
+
+## Steps
+
+1. Create a virtual environment and activate it:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+2. Install the required Python packages:
+    ```bash
+    pip install tensorflow-gpu opencv-python
+    ```
+
+3. Ensure CUDA is properly installed and configured on your system.
